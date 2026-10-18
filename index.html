@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maria Gabriela da Rocha Gomes · Advogada</title>
+<meta name="description" content="Advogada inscrita na OAB/PE 38.279, pós-graduada em Direito Civil e Processo Civil. Atuação em Direito do Trabalho e Direito de Família em Recife/PE.">
+<meta property="og:title" content="Maria Gabriela da Rocha Gomes · Advogada">
+<meta property="og:description" content="OAB/PE 38.279 · Direito do Trabalho e Direito de Família · Recife/PE">
+<meta name="theme-color" content="#5A1522">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%235A1522'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Georgia,serif' font-size='28' fill='%23D9BE8C'%3EMG%3C/text%3E%3C/svg%3E">
+<style>
+@font-face { font-family: "EB Garamond"; src: url(assets/fonts/EBGaramond-Regular.ttf); font-weight: 400; font-display: swap; }
+@font-face { font-family: "EB Garamond"; src: url(assets/fonts/EBGaramond-Bold.ttf); font-weight: 700; font-display: swap; }
+@font-face { font-family: Lato; src: url(assets/fonts/Lato-Regular.ttf); font-weight: 400; font-display: swap; }
+@font-face { font-family: Lato; src: url(assets/fonts/Lato-Bold.ttf); font-weight: 700; font-display: swap; }
+
+:root {
+  --vinho: #5A1522;
+  --vinho-fundo: #3F0E18;
+  --ouro: #A9834B;
+  --ouro-claro: #D9BE8C;
+  --tinta: #2B1D20;
+  --tinta-suave: #6B5A5D;
+  --papel: #FFFFFF;
+  --linha: #EADFD9;
+  --serif: "EB Garamond", Garamond, Georgia, serif;
+  --sans: Lato, "Helvetica Neue", Arial, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { font-family: var(--sans); font-size: 1.0625rem; line-height: 1.6; color: var(--tinta); background: var(--papel); -webkit-font-smoothing: antialiased; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--ouro); outline-offset: 3px; border-radius: 2px; }
+
+/* ── Capa ───────────────────────────────────────── */
+.capa { background: var(--vinho); color: #fff; position: relative; overflow: hidden; }
+.capa::after { content: ""; position: absolute; inset: auto 0 0 0; height: 1px; background: var(--ouro); opacity: .7; }
+.capa-in { max-width: 68rem; margin: 0 auto; padding: clamp(4rem, 12vh, 8rem) 1.5rem clamp(3.5rem, 9vh, 6rem); display: grid; grid-template-columns: 1fr auto; gap: 3rem; align-items: center; }
+.nome { font-family: var(--serif); font-weight: 400; font-size: clamp(3rem, 8.4vw, 6.6rem); line-height: .95; letter-spacing: -.01em; }
+.nome span { display: block; color: var(--ouro-claro); }
+.oficio { margin-top: 1.6rem; font-family: var(--serif); font-style: italic; font-size: clamp(1.2rem, 2.2vw, 1.5rem); color: rgba(255,255,255,.86); max-width: 34ch; line-height: 1.4; }
+.acoes { margin-top: 2.4rem; display: flex; flex-wrap: wrap; gap: .9rem; }
+.btn { display: inline-flex; align-items: center; gap: .55rem; padding: .85rem 1.4rem; font-weight: 700; font-size: .95rem; text-decoration: none; border-radius: 999px; transition: background-color .2s, color .2s; }
+.btn svg { width: 1.05em; height: 1.05em; }
+.btn-ouro { background: var(--ouro-claro); color: var(--vinho-fundo); }
+.btn-ouro:hover { background: #fff; }
+.btn-linha { border: 1px solid rgba(217,190,140,.6); color: #fff; }
+.btn-linha:hover { background: rgba(255,255,255,.08); }
+
+.selo { width: clamp(11rem, 22vw, 17rem); aspect-ratio: 1; color: var(--ouro-claro); }
+.selo .anel { transform-origin: 100px 100px; animation: girar 1.8s cubic-bezier(.2,.7,.2,1) both; }
+@keyframes girar { from { transform: rotate(-70deg); opacity: 0; } to { transform: rotate(0); opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .selo .anel { animation: none; } html { scroll-behavior: auto; } }
+
+/* ── Destaques ─────────────────────────────────── */
+.marcos { max-width: 68rem; margin: 0 auto; padding: 0 1.5rem; display: grid; grid-template-columns: repeat(3, 1fr); border-bottom: 1px solid var(--linha); }
+.marco { padding: 2rem 1.5rem 2rem 0; }
+.marco + .marco { padding-left: 1.5rem; border-left: 1px solid var(--linha); }
+.marco strong { display: block; font-family: var(--serif); font-size: 1.6rem; font-weight: 700; color: var(--vinho); line-height: 1.15; }
+.marco span { font-size: .95rem; color: var(--tinta-suave); }
+
+/* ── Corpo ─────────────────────────────────────── */
+main { max-width: 68rem; margin: 0 auto; padding: 0 1.5rem; }
+.bloco { display: grid; grid-template-columns: 14rem 1fr; gap: 2.5rem; padding: 4rem 0; border-bottom: 1px solid var(--linha); }
+.bloco:last-child { border-bottom: 0; }
+.bloco > h2 { font-family: var(--serif); font-weight: 400; font-size: 2rem; line-height: 1.1; color: var(--vinho); }
+.bloco > h2::before { content: ""; display: block; width: 2.2rem; height: 2px; background: var(--ouro); margin-bottom: 1rem; }
+.texto { max-width: 62ch; }
+.perfil { font-family: var(--serif); font-size: 1.32rem; line-height: 1.62; }
+.perfil b { color: var(--vinho); }
+
+.cargo { display: grid; grid-template-columns: 9.5rem 1fr; gap: 1.5rem; }
+.cargo + .cargo { margin-top: 2.8rem; }
+.quando { font-family: var(--serif); font-size: 1.1rem; color: var(--ouro); font-variant-numeric: oldstyle-nums; padding-top: .2rem; }
+.cargo h3 { font-family: var(--serif); font-size: 1.55rem; font-weight: 700; line-height: 1.2; }
+.funcao { font-family: var(--serif); font-style: italic; font-size: 1.15rem; color: var(--vinho); margin-bottom: .8rem; }
+.cargo ul { list-style: none; max-width: 62ch; }
+.cargo li { position: relative; padding-left: 1.2rem; margin-bottom: .45rem; }
+.cargo li::before { content: ""; position: absolute; left: 0; top: .72em; width: .45rem; height: 1px; background: var(--ouro); }
+.materias { margin-top: 1rem; padding: .9rem 1.1rem; background: #F8F1EE; border-left: 2px solid var(--vinho); font-size: .97rem; max-width: 62ch; }
+.materias b { color: var(--vinho); }
+
+.estagio { display: grid; grid-template-columns: 9.5rem 1fr; gap: 1.5rem; padding: .9rem 0; border-top: 1px solid var(--linha); }
+.estagio:first-child { border-top: 0; padding-top: 0; }
+.estagio b { display: block; }
+.estagio span { color: var(--tinta-suave); }
+.ativ { margin-top: 1.4rem; color: var(--tinta-suave); max-width: 62ch; }
+
+.formacao { list-style: none; }
+.formacao li + li { margin-top: 1.6rem; }
+.formacao h3 { font-family: var(--serif); font-size: 1.4rem; font-weight: 700; line-height: 1.2; }
+.formacao p { color: var(--tinta-suave); }
+.laurea { display: inline-block; margin-top: .45rem; padding: .2rem .8rem; border-radius: 999px; background: var(--vinho); color: var(--ouro-claro); font-family: var(--serif); font-style: italic; font-size: 1.05rem; }
+
+.duas { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; }
+.duas h3 { font-family: var(--serif); font-size: 1.3rem; color: var(--vinho); margin-bottom: .6rem; }
+.lista { list-style: none; }
+.lista li { padding: .45rem 0; border-bottom: 1px solid var(--linha); }
+.lista li:last-child { border-bottom: 0; }
+.lista small { color: var(--tinta-suave); font-size: .9rem; }
+
+/* ── Contato ───────────────────────────────────── */
+.contato { background: var(--vinho-fundo); color: #fff; }
+.contato-in { max-width: 68rem; margin: 0 auto; padding: 4.5rem 1.5rem; display: grid; grid-template-columns: 14rem 1fr; gap: 2.5rem; }
+.contato h2 { font-family: var(--serif); font-weight: 400; font-size: 2rem; color: var(--ouro-claro); }
+.contato dl { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1.6rem 2.5rem; }
+.contato dt { font-family: var(--serif); font-style: italic; color: var(--ouro-claro); font-size: 1.1rem; }
+.contato dd { font-size: 1.1rem; }
+.contato dd a { text-decoration: none; border-bottom: 1px solid rgba(217,190,140,.5); }
+.contato dd a:hover { border-color: var(--ouro-claro); }
+.rodape { max-width: 68rem; margin: 0 auto; padding: 1.4rem 1.5rem 2rem; border-top: 1px solid rgba(255,255,255,.12); font-size: .88rem; color: rgba(255,255,255,.55); }
+
+/* ── Telas menores ─────────────────────────────── */
+@media (max-width: 760px) {
+  body { font-size: 1rem; }
+  .capa-in { grid-template-columns: 1fr; gap: 2rem; padding-top: 3.5rem; }
+  .selo { order: -1; width: 7.5rem; }
+  .marcos { grid-template-columns: 1fr; }
+  .marco, .marco + .marco { padding: 1.2rem 0; border-left: 0; }
+  .marco + .marco { border-top: 1px solid var(--linha); }
+  .bloco, .contato-in { grid-template-columns: 1fr; gap: 1.5rem; padding-top: 3rem; padding-bottom: 3rem; }
+  .cargo, .estagio { grid-template-columns: 1fr; gap: .3rem; }
+  .duas { grid-template-columns: 1fr; }
+  .perfil { font-size: 1.18rem; }
+}
+
+@media print {
+  .acoes, .selo { display: none; }
+  .capa, .contato { background: #fff; color: var(--tinta); }
+}
+</style>
+</head>
+<body>
+
+<header class="capa">
+  <div class="capa-in">
+    <div>
+      <h1 class="nome">Maria Gabriela <span>da Rocha Gomes</span></h1>
+      <p class="oficio">Advogada em Direito do Trabalho e Direito Civil, com ênfase em Direito de Família, em Recife.</p>
+      <div class="acoes">
+        <a class="btn btn-ouro" href="assets/Maria_Gabriela_da_Rocha_Gomes_CV.pdf" download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14"/></svg>
+          Baixar currículo em PDF
+        </a>
+        <a class="btn btn-linha" href="mailto:mariagabrielargomes@gmail.com">Enviar e-mail</a>
+      </div>
+    </div>
+
+    <svg class="selo" viewBox="0 0 200 200" role="img" aria-label="Selo MG, OAB/PE 38.279">
+      <defs><path id="circ" d="M100,100 m-76,0 a76,76 0 1,1 152,0 a76,76 0 1,1 -152,0"/></defs>
+      <g class="anel">
+        <circle cx="100" cy="100" r="96" fill="none" stroke="currentColor" stroke-width="1"/>
+        <circle cx="100" cy="100" r="88" fill="none" stroke="currentColor" stroke-width=".6" opacity=".6"/>
+        <text font-family="Lato, sans-serif" font-size="11.5" letter-spacing="3.2" fill="currentColor">
+          <textPath href="#circ">ADVOGADA · OAB/PE 38.279 · RECIFE · PERNAMBUCO ·</textPath>
+        </text>
+      </g>
+      <circle cx="100" cy="100" r="60" fill="currentColor" opacity=".12"/>
+      <circle cx="100" cy="100" r="60" fill="none" stroke="currentColor" stroke-width="1"/>
+      <text x="100" y="117" text-anchor="middle" font-family="EB Garamond, Georgia, serif" font-size="50" fill="currentColor">MG</text>
+    </svg>
+  </div>
+</header>
+
+<section class="marcos" aria-label="Destaques">
+  <div class="marco"><strong>OAB/PE 38.279</strong><span>Inscrita na Ordem dos Advogados do Brasil</span></div>
+  <div class="marco"><strong>Aluna Laureada</strong><span>Bacharelado em Direito, Faculdade Marista do Recife</span></div>
+  <div class="marco"><strong>Pós-graduada</strong><span>Direito Civil e Processo Civil</span></div>
+</section>
+
+<main>
+  <section class="bloco" id="perfil">
+    <h2>Perfil</h2>
+    <p class="texto perfil">Advogada inscrita na <b>OAB/PE 38.279</b>, pós-graduada em <b>Direito Civil e Processo Civil</b> e bacharel em Direito como <b>Aluna Laureada</b> pela Faculdade Marista do Recife. Experiência em Direito Civil, com ênfase em Direito de Família, e em Direito do Trabalho, com atuação na condução e no acompanhamento de processos, na elaboração de peças processuais, no atendimento e na orientação a clientes, em audiências e negociação de acordos e em pesquisa jurisprudencial.</p>
+  </section>
+
+  <section class="bloco" id="experiencia">
+    <h2>Experiência</h2>
+    <div>
+      <article class="cargo">
+        <p class="quando">mar. 2026 – jul. 2026</p>
+        <div>
+          <h3>Pedro Tenório &amp; Advogados</h3>
+          <p class="funcao">Advogada Trabalhista</p>
+          <ul>
+            <li>Elaborou contestações, manifestações, recursos e demais peças processuais trabalhistas.</li>
+            <li>Analisou documentos, definiu estratégias processuais, acompanhou processos e controlou prazos.</li>
+            <li>Atendeu e orientou clientes; participou de audiências de conciliação e instrução e de negociações de acordo.</li>
+          </ul>
+          <p class="materias"><b>Matérias:</b> verbas rescisórias, horas extras, reconhecimento de vínculo empregatício, adicionais e indenizações.</p>
+        </div>
+      </article>
+      <article class="cargo">
+        <p class="quando">fev. 2026 – mar. 2026</p>
+        <div>
+          <h3>Tenório &amp; Araújo Advogados</h3>
+          <p class="funcao">Advogada Trabalhista</p>
+          <ul>
+            <li>Elaborou e revisou peças trabalhistas, com pesquisa de legislação e jurisprudência para fundamentação de teses.</li>
+            <li>Participou de audiências, atendeu clientes e acompanhou processos e prazos, apoiando a estratégia processual e a negociação de acordos.</li>
+          </ul>
+        </div>
+      </article>
+      <article class="cargo">
+        <p class="quando">2019 – 2024</p>
+        <div>
+          <h3>Xavier &amp; Gomes Advocacia e Consultoria</h3>
+          <p class="funcao">Advogada Cível, Direito de Família</p>
+          <ul>
+            <li>Conduziu e acompanhou processos judiciais cíveis e de família, com controle de prazos.</li>
+            <li>Elaborou petições iniciais, contestações, manifestações e recursos, com pesquisa jurisprudencial e análise da legislação aplicável.</li>
+            <li>Prestou atendimento e orientação jurídica direta a clientes e participou de audiências de conciliação, mediação e instrução.</li>
+          </ul>
+          <p class="materias"><b>Matérias:</b> divórcio, alimentos, guarda e regulamentação de convivência, reconhecimento e dissolução de união estável e partilha de bens.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="bloco" id="estagios">
+    <h2>Estágios</h2>
+    <div>
+      <div class="estagio"><p class="quando">04/2013 – 07/2014</p><div><b>Tribunal Regional Eleitoral de Pernambuco (TRE/PE)</b><span>Gabinete da Vice-Presidência</span></div></div>
+      <div class="estagio"><p class="quando">06/2012 – 03/2013</p><div><b>Defensoria Pública do Estado de Pernambuco</b><span>3ª Vara de Família da Capital</span></div></div>
+      <div class="estagio"><p class="quando">02/2012 – 06/2012</p><div><b>Defensoria Pública do Estado de Pernambuco</b><span>1ª Vara do Tribunal do Júri da Capital</span></div></div>
+      <p class="ativ">Elaboração de peças processuais, ofícios, informações, despachos, relatórios e votos; pesquisa jurisprudencial, sobretudo nos Tribunais Superiores; análise e acompanhamento de processos administrativos e judiciais; acompanhamento de audiências, sessões do Tribunal do Júri e do Pleno; atendimento ao público.</p>
+    </div>
+  </section>
+
+  <section class="bloco" id="formacao">
+    <h2>Formação</h2>
+    <ul class="formacao">
+      <li><h3>Pós-graduação em Direito Civil e Processo Civil</h3><p>ATF Cursos Jurídicos, 2018</p></li>
+      <li><h3>Bacharelado em Direito</h3><p>Faculdade Marista do Recife (FMR), 2014.2</p><span class="laurea">Aluna Laureada</span></li>
+      <li><h3>Atualização no Novo Código de Processo Civil</h3><p>Espaço Jurídico Cursos, 2015.2</p></li>
+    </ul>
+  </section>
+
+  <section class="bloco" id="competencias">
+    <h2>Competências</h2>
+    <div class="duas">
+      <div>
+        <h3>Atuação</h3>
+        <ul class="lista">
+          <li>Direito de Família</li>
+          <li>Direito do Trabalho</li>
+          <li>Direito Civil e Processo Civil</li>
+          <li>Peças processuais e recursos</li>
+          <li>Audiências e acordos</li>
+          <li>Pesquisa jurisprudencial</li>
+          <li>Controle de prazos</li>
+          <li>Atendimento a clientes</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Idiomas</h3>
+        <ul class="lista"><li>Inglês <small>Upper Intermediate</small></li></ul>
+        <h3 style="margin-top:1.8rem">Sistemas</h3>
+        <ul class="lista">
+          <li>PJe</li>
+          <li>Astrea</li>
+          <li>Zoom <small>audiências virtuais</small></li>
+          <li>Microsoft Word</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="contato" id="contato">
+  <div class="contato-in">
+    <h2>Contato</h2>
+    <dl>
+      <div><dt>E-mail</dt><dd><a href="mailto:mariagabrielargomes@gmail.com">mariagabrielargomes@gmail.com</a></dd></div>
+      <div><dt>Celular</dt><dd><a href="tel:+5581992655645">(81) 99265-5645</a></dd></div>
+      <div><dt>Telefone</dt><dd><a href="tel:+558132274367">(81) 3227-4367</a></dd></div>
+      <div><dt>Cidade</dt><dd>Recife, Pernambuco</dd></div>
+    </dl>
+  </div>
+  <p class="rodape">Maria Gabriela da Rocha Gomes, advogada, OAB/PE 38.279</p>
+</footer>
+
+</body>
+</html>
