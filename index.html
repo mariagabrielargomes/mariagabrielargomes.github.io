@@ -8,6 +8,7 @@
 <meta property="og:title" content="Maria Gabriela da Rocha Gomes · Advogada">
 <meta property="og:description" content="OAB/PE 38.279 · Direito do Trabalho e Direito de Família · Recife/PE">
 <meta name="theme-color" content="#5A1522">
+<meta property="og:image" content="https://mariagabrielargomes.github.io/assets/maria-gabriela.jpg">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%235A1522'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Georgia,serif' font-size='28' fill='%23D9BE8C'%3EMG%3C/text%3E%3C/svg%3E">
 <style>
 @font-face { font-family: "EB Garamond"; src: url(assets/fonts/EBGaramond-Regular.ttf); font-weight: 400; font-display: swap; }
@@ -49,7 +50,7 @@ a { color: inherit; }
 .btn-linha { border: 1px solid rgba(217,190,140,.6); color: #fff; }
 .btn-linha:hover { background: rgba(255,255,255,.08); }
 
-.selo { width: clamp(11rem, 22vw, 17rem); aspect-ratio: 1; color: var(--ouro-claro); }
+.selo { width: clamp(13rem, 25vw, 19rem); aspect-ratio: 1; color: var(--ouro-claro); }
 .selo .anel { transform-origin: 100px 100px; animation: girar 1.8s cubic-bezier(.2,.7,.2,1) both; }
 @keyframes girar { from { transform: rotate(-70deg); opacity: 0; } to { transform: rotate(0); opacity: 1; } }
 @media (prefers-reduced-motion: reduce) { .selo .anel { animation: none; } html { scroll-behavior: auto; } }
@@ -116,7 +117,7 @@ main { max-width: 68rem; margin: 0 auto; padding: 0 1.5rem; }
 @media (max-width: 760px) {
   body { font-size: 1rem; }
   .capa-in { grid-template-columns: 1fr; gap: 2rem; padding-top: 3.5rem; }
-  .selo { order: -1; width: 7.5rem; }
+  .selo { order: -1; width: 10rem; }
   .marcos { grid-template-columns: 1fr; }
   .marco, .marco + .marco { padding: 1.2rem 0; border-left: 0; }
   .marco + .marco { border-top: 1px solid var(--linha); }
@@ -148,7 +149,7 @@ main { max-width: 68rem; margin: 0 auto; padding: 0 1.5rem; }
       </div>
     </div>
 
-    <svg class="selo" viewBox="0 0 200 200" role="img" aria-label="Selo MG, OAB/PE 38.279">
+    <svg class="selo" viewBox="0 0 200 200" role="img" aria-label="Foto de Maria Gabriela da Rocha Gomes, OAB/PE 38.279">
       <defs><path id="circ" d="M100,100 m-76,0 a76,76 0 1,1 152,0 a76,76 0 1,1 -152,0"/></defs>
       <g class="anel">
         <circle cx="100" cy="100" r="96" fill="none" stroke="currentColor" stroke-width="1"/>
@@ -157,9 +158,9 @@ main { max-width: 68rem; margin: 0 auto; padding: 0 1.5rem; }
           <textPath href="#circ">ADVOGADA · OAB/PE 38.279 · RECIFE · PERNAMBUCO ·</textPath>
         </text>
       </g>
-      <circle cx="100" cy="100" r="60" fill="currentColor" opacity=".12"/>
-      <circle cx="100" cy="100" r="60" fill="none" stroke="currentColor" stroke-width="1"/>
-      <text x="100" y="117" text-anchor="middle" font-family="EB Garamond, Georgia, serif" font-size="50" fill="currentColor">MG</text>
+      <clipPath id="rosto"><circle cx="100" cy="100" r="68"/></clipPath>
+      <image href="assets/maria-gabriela.jpg" x="32" y="32" width="136" height="136" clip-path="url(#rosto)" preserveAspectRatio="xMidYMid slice"/>
+      <circle cx="100" cy="100" r="68" fill="none" stroke="currentColor" stroke-width="1.5"/>
     </svg>
   </div>
 </header>
